@@ -6,7 +6,6 @@
 package com.vikakhang286.mathutil.test;
 
 import com.VikaKhang286.mathutil.MathUtility;
-import java.sql.SQLException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
