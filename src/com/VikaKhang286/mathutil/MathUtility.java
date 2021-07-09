@@ -25,7 +25,7 @@ public class MathUtility {
        //sửa code, sửa hàm giai thừa cho gọn, dùng đệ quy
        
        if(n==0 || n==1)
-           return 1; //0! = 1! = 1
+           return 1; //0! = 1! = 1 
        return n * getFactorial(n - 1);
        //đệ quy, vòng lại chính mình với quy mô khác
        //recursion. Làm khéo nếu ko nó đi mãi mãi

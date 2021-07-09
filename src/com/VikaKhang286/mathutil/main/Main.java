@@ -45,8 +45,12 @@ public class Main {
           //case 4: -1! thì sao???
           //expected = ????; //ngoại lệ mà, ko so sánh đc, ko phải là value
           // mà nó chỉ xuất hiện thôi
+          try{
           input = -1;
           actual = MathUtility.getFactorial(input);
+          }catch(Exception e){
+              System.out.println("Error");
+          }
           //ko in đc ngoại lệ, chỉ coi nó xh hay ko???
           
           //CHÚNG TA PHẢI NHÌN ĐỂ KẾT LUẬN, NHÌN NHIỀU CASES
